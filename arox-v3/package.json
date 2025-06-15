@@ -1,0 +1,13 @@
+{
+  "name": "arox-v3",
+  "version": "1.0.0",
+  "description": "This is arox-blog`s frontend section.",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CoderFrish/arox-blog.git"
+  },
+  "type": "module",
+  "private": true
+}
