@@ -6,16 +6,25 @@
     "dev:blog": "vite packages/v3-blog",
     "build:blog": "cd packages/v3-blog && vue-tsc -b && vite build"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/CoderFrish/arox-blog.git"
+  "dependencies": {
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "vite": "^6.3.5",
     "vue-tsc": "^2.2.10",
     "@vue/tsconfig": "^0.7.0",
-    "@tsconfig/node22": "^22.0.2"
+    "@types/node": "^22.15.32",
+    "vite-plugin-html": "^3.2.2",
+    "@tsconfig/node22": "^22.0.2",
+    "vite-plugin-pages": "^0.33.0",
+    "@vitejs/plugin-vue": "^5.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CoderFrish/arox-blog.git"
   },
   "workspaces": ["packages/*"],
+  "type": "module",
   "private": true
 }
