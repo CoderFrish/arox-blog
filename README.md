@@ -1,6 +1,6 @@
 # Arox blog
 
-一个Vue + TypeScript博客，正在赛博施工中。。。 \
+一个前端以vue + typeScript为主，后端以fastApi + Python为主的博客系统 \
 Python 后端应用启动指令
 
 开发环境 (生产环境可以不需要--reload)
