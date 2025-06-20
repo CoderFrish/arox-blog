@@ -4,7 +4,9 @@
   "description": "This is arox-blog`s frontend section.",
   "scripts": {
     "dev:blog": "vite packages/v3-blog",
-    "build:blog": "cd packages/v3-blog && vue-tsc -b && vite build"
+    "build:blog": "cd packages/v3-blog && vue-tsc -b && vite build",
+    "dev:admin": "vite packages/v3-admin",
+    "build:admin": "cd packages/v3-admin && vue-tsc -b && vite build"
   },
   "dependencies": {
     "vue": "^3.5.17",
