@@ -3,11 +3,19 @@
   "version": "1.0.0",
   "description": "This is arox-blog`s frontend section.",
   "scripts": {
+    "dev:blog": "vite packages/v3-blog",
+    "build:blog": "cd packages/v3-blog && vue-tsc -b && vite build"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/CoderFrish/arox-blog.git"
   },
-  "type": "module",
+  "devDependencies": {
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.10",
+    "@vue/tsconfig": "^0.7.0",
+    "@tsconfig/node22": "^22.0.2"
+  },
+  "workspaces": ["packages/*"],
   "private": true
 }
