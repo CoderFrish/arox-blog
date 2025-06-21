@@ -1,10 +1,9 @@
-import os
-from dotenv import load_dotenv
+from settings import Settings
 from fastapi import FastAPI
 
-load_dotenv(".env.development")
+settings = Settings()
 app = FastAPI()
 
 @app.get("/hello")
 def hello() -> str:
-    return os.environ["TEST"]
+    return settings.TEST
