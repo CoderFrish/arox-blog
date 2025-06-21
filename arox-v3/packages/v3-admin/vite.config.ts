@@ -9,7 +9,7 @@ const htmlPlugin = (env: Record<string, string>) => {
         entry: "/src/main.ts",
         inject: {
             data: {
-                title: env.VITE_ADMIN_PAGE_TITLE
+                title: env.ADMIN_PAGE_TITLE
             }
         }
     })
